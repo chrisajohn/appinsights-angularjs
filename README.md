@@ -45,16 +45,10 @@ Note: the appinsights-angularjs.js file will be in the **build/** folder after r
 
 ###Setup
 
-Add a reference to the *angular-applicationinsights.js* file in your main html file:
+Add a reference to the *app insights cdn* file in your main html file:
 ```HTML
-   <!-- load angular and angular routes via CDN -->
-   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.10/angular.js"></script>
-   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.10/angular-route.js"></script>
-	<!-- load application insights after the angular script, but before your main application module -->
-   <script src="build/angular-applicationinsights.js"></script>
-   <script language="javascript">
-		var amazingApp = angular.module('amazingApp', ['ApplicationInsightsModule']);
-   </script>
+   <!-- load application insights via CDN -->
+   <script src="https://az416426.vo.msecnd.net/scripts/a/ai.0.js"></script>
 ```
 Require the following resource:
 ```Javascript
