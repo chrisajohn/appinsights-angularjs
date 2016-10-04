@@ -1,7 +1,7 @@
 {
   "name": "appinsights-angularjs",
   "description": "An angularJS module for sending application telemetry to Microsoft Application Insights",
-  "author": "Chris John, some of the code taken from Ken Haines <ken@kenhaines.net> (http://www.kenhaines.net) - angular-applicationinsights",
+  "author": "Chris John, some of the code taken from Ken Haines",
   "keywords": [
     "angularJS",
     "app insights",
@@ -19,14 +19,11 @@
     "applicationinsights",
     "stats"
   ],
-  "version": "0.1",
+  "version": "0.1.0",
   "files": [
-    "dist/appinsights-angularjs.min.js"
+    "dist"
   ],
-  "main": "dist/appinsights-angularjs.min.js",
-  "scripts": {
-    "test": "grunt"
-  },
+  "main": "./dist/appinsights-angularjs.min.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/chrisajohn/appinsights-angularjs"
